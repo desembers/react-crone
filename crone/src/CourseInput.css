@@ -1,0 +1,28 @@
+.App {
+  padding: 20px;
+  margin: 0;
+}
+.buttontype {
+  padding: 0;
+  margin: 5px;
+}
+
+.App-header {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.add {
+  background-color: blue;
+  color: white;
+  outline: none;
+}
+
+input[type="type"] {
+  display: dlock;
+  border: 1px solid #ccc;
+  font: black;
+  line-height: 10px;
+  padding: 0px;
+}
