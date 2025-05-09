@@ -1,28 +1,30 @@
-.App {
-  padding: 20px;
-  margin: 0;
-}
-.buttontype {
-  padding: 0;
-  margin: 5px;
+.form-control {
+  margin: 0.5rem 0;
 }
 
-.App-header {
+.form-control label {
   font-weight: bold;
   display: block;
   margin-bottom: 5px;
 }
 
-.add {
-  background-color: blue;
+.form-control input {
+  display: block;
+  width: 100px;
+  border: 1px solid #ccc;
+  line-height: 20px;
+  font: inherit;
   color: white;
   outline: none;
+  padding: 0 0 25px;
 }
 
-input[type="type"] {
-  display: dlock;
-  border: 1px solid #ccc;
-  font: black;
-  line-height: 10px;
-  padding: 0px;
+].form-control input:focus {
+  outline: none;
+  border-color: blue;
+}
+
+.form-control.invalid input {
+  background-color: salmon;
+  border-color: red;
 }
