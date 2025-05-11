@@ -34,6 +34,7 @@ const CourseInput = (props) => {
           inVaild={isVaild}
           //style={{ backgroundColor: "salmon", borderColor: "red" }}
           //style={{ backgroundColor: "transparent", borderColor: "#ccc" }}
+          //style={{backgroundColor: isValid? "transport": "red", borderColor: isVaild? "transpport" : "#ccc"}}
         />
       </FormControl>
       <Button type="submit">목표 추가하기</Button>
